@@ -1,0 +1,276 @@
+
+#artist-container
+{
+    height: 50rem;
+    width: 100%;
+
+    display: flex;
+    background-color: #141B41;
+}
+#artist-pic
+{
+    height: 100%;
+    width: 40%;
+}
+#artist-pic img
+{
+    width: 100%;
+    height: inherit;
+}
+#artist-info
+{
+    width: 57%;
+}
+#album-name
+{
+    margin-top: 15%;
+    
+    
+}
+.inline-block
+{
+    display: inline-block;
+}
+.block
+{
+    display: block;
+}
+#play-all{
+	margin-top: 5vh;
+}
+#play-all a{
+	/* padding: 10px 40px 10px 40px;
+	background-image: linear-gradient(90deg,#3A26B1, #C148DF);
+    margin-bottom: 1vh; */
+    padding: 10px 40px 10px 40px;
+    background-image: linear-gradient(90deg,#3A26B1, #C148DF);
+    font-weight: 1500;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+#play-all a:hover{
+	background-image: linear-gradient(90deg,#3A26B1 40%, #C148DF);
+}
+#play-all span{
+	font-size: 1.4rem;
+	color: #B1B3C0;
+}
+#artist-footer{
+
+display: flex;
+
+	/*border:1px solid black;*/
+	
+}
+#follow
+{
+    margin-top: 8%;
+    margin-left: 30%;
+}
+#follow a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+#follow-art{
+	position: absolute;
+	right:8vw;
+	top: 8vh;
+	font-size: 0.8rem;
+}
+#follow-art a:hover{
+	color: #B1B3C0;
+}
+
+.song{
+	height: 75px;
+	background-color: #1A1E33;
+	width: 100%;
+	display: flex;
+	align-items: center;	
+	margin-top: 1.5vh;
+}
+
+.song:nth-child(1){
+	margin-top: 3vh;
+}
+
+.song-num{
+	padding: 2px 7px;
+	font-size: 2rem;
+	color: #93A8B3;
+}
+.song-img{
+    background-image: url(images/popularArtists/momina.jpg);
+    background-size: cover;
+    height: 7rem;
+    width: 7rem;
+	display: flex;
+	align-items: center;
+}
+
+.song-info{
+	width: 20%;
+	text-align: left;
+	padding-left: 1vw;
+    font-size: 1.5rem;
+    
+}
+.song-info p a{
+    text-decoration: none;
+	color: #93A8B3;;
+}
+.song-info h4 a{
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+	font-size: 2.5rem;
+}
+.time{
+	width: 60%;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.song-icons{
+	/*border: 1px solid black; */
+	width: 10%;
+}
+.song-icons span{
+	margin-left: 0.5vw;
+}
+.song-icons span a{
+    color: white;
+    font-size: 2rem;
+}
+
+/*  Q u e u e   */
+.q-heading
+{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.view-font a{
+    text-decoration: none;
+    color:#93A8B3;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.queue-similar{
+	/*border:1px solid black;*/
+	height:auto;
+	display: flex;
+	align-items: center;
+	margin-top: 1.2vh;
+}
+.first{
+	margin-top:3vh;
+}
+.similar-img{
+	width: 30%;
+}
+.similar-img img{
+	width: 100%;
+}
+.similar-info{
+	width: 50%;
+	height: inherit;
+	padding-left: 1vw;
+}
+.similar-info h3{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifS;
+}
+.similar-info p{
+    font-size: 1.5rem;
+    font-weight: 700;
+	color: lightgrey;
+	margin-top: 1.5vh;
+}
+.similar-options{
+	width: 20%;
+    height: inherit;
+    margin-top: -25%;
+	position: relative;
+}
+.similar-options  span a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+	position: absolute;
+	right:0px;
+}
+
+
+/*/////////////////*/
+
+
+/* M E D I A  Q U E R I E S */
+@media screen and (max-width:789px)
+{
+
+}
+ 
+@media screen and (max-width:1000px)
+{
+    #songs
+    {
+        max-width: 20%;
+    }
+  #main{
+    flex-direction: column;
+  }
+  #main-container
+  {
+      margin-left: 2%;
+    width:95vw;
+  }
+  #queue{
+    width:95vw !important;
+  }
+}
+@media screen and (max-width:751px)
+{
+    #songs
+    {
+        max-width: 40%;
+    }
+}
+.name-font
+{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.inline-block
+{
+    display: inline-block;
+}
+.p-font
+{
+    margin-top: 1%;
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.follower-font
+{
+    font-size: 2.3rem;
+}
+.float-right
+{
+    float: right;
+}
+.greycolor
+{
+    color: #B1B3C0;
+}
+.mgl8
+{
+    margin-left: 8%;
+}
